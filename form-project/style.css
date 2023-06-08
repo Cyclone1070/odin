@@ -1,7 +1,30 @@
 html {
     font-size: 62.5%;
     font-family: sans-serif;
+    background: grey;
 }
-h3 {
-    font-size: 1.6rem;
+
+body {
+    display: flex;
+}
+.sidebar {
+    flex: 1;
+}
+.content {
+    width: 100px;
+    flex: 2.5;
+}
+.logo-bar {
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh 0 0 0;
+}
+h1 {
+    font-size: 3rem;
+    transform: scale(1, 2);
+}
+img {
+    height: 100%;
 }
