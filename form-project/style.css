@@ -34,3 +34,63 @@ h1 {
 img {
     height: 100%;
 }
+.page-title {
+    font-size: 2rem;
+    flex: 1;
+    vertical-align: bottom;
+    display: flex;
+    align-items: flex-end;
+}
+form {
+    font-size: 1.6rem;
+}
+form {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+fieldset {
+    display: flex;
+    padding: 2rem 0 10px 0;
+    position: relative;
+    border: none;
+    background: gainsboro;
+    margin: 10px 0;
+    box-shadow: 3px 2px 7px 3px rgb(0, 0, 0, 0.2);
+}
+legend {
+    position: absolute;
+    left: 5%;
+    top: 5px;
+    font-size: 2rem;
+}
+.column {
+    margin: 0 0 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin: 20px 0 5px 0;
+    font-size: 1.3rem;
+}
+button {
+    align-self: flex-start;
+    margin: 10px 0 0 5%;
+    padding: 5px 30px;
+    border-radius: 8px;
+    background: crimson;
+    color: gold;
+}
+form p {
+    margin: 10px 0 0 5%;
+    font-size: 1.4rem;
+}
+a {
+    text-decoration: none;
+    color: crimson;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
