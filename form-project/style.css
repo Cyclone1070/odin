@@ -1,29 +1,35 @@
 html {
     font-size: 62.5%;
     font-family: sans-serif;
-    background: grey;
+    background: silver;
 }
 
 body {
     display: flex;
+    align-items: stretch;
 }
 .sidebar {
+    height: 100vh;
     flex: 1;
+    background: url(crime-scene.png) no-repeat center/cover;
 }
 .content {
     width: 100px;
-    flex: 2.5;
+    flex: 2;
 }
 .logo-bar {
     display: flex;
     height: 15vh;
     justify-content: center;
     align-items: center;
-    margin: 20vh 0 0 0;
+    margin: 30vh 0 0 0;
+    background: rgb(128, 128, 128, 0.9);
+    padding: 10px;
 }
 h1 {
     font-size: 3rem;
     transform: scale(1, 2);
+    color: firebrick;
 }
 img {
     height: 100%;
