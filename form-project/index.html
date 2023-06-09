@@ -34,9 +34,16 @@
                         <label for="first-name">FIRST NAME</label>
                         <input type="text" name="first-name" id="first-name" />
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email" />
+                        <input type="email" name="email" id="email" required />
+                        <span></span>
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password" />
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            required
+                        />
+                        <span></span>
                     </div>
                     <div class="column">
                         <label for="last-name">LAST NAME</label>
@@ -44,7 +51,13 @@
                         <label for="phone">PHONE NUMBER</label>
                         <input type="tel" name="phone" id="phone" />
                         <label for="confirm">CONFIRM PASSWORD</label>
-                        <input type="password" name="password" id="confirm" />
+                        <input
+                            type="password"
+                            name="password"
+                            id="confirm"
+                            required
+                        />
+                        <span></span>
                     </div>
                 </fieldset>
                 <button>Create Account</button>
